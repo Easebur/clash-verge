@@ -48,7 +48,7 @@
       }
     },
     "updater": {
-      "active": true,
+      "active": false,
       "endpoints": [
         "https://github.com/zzzgydi/clash-verge/releases/download/updater/update.json",
         "https://hub.fastgit.xyz/zzzgydi/clash-verge/releases/download/updater/update-proxy.json"
@@ -75,7 +75,7 @@
         "resizable": true,
         "fullscreen": false,
         "decorations": false,
-        "transparent": true,
+        "transparent": false,
         "minWidth": 600,
         "minHeight": 520
       }

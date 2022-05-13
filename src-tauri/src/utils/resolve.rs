@@ -36,17 +36,17 @@ fn resolve_window(app: &App) {
   #[cfg(target_os = "windows")]
   {
     use crate::utils::winhelp;
-    use window_shadows::set_shadow;
-    use window_vibrancy::apply_blur;
+    // use window_shadows::set_shadow;
+    // use window_vibrancy::apply_blur;
 
-    let _ = window.set_decorations(false);
-    let _ = set_shadow(&window, true);
+    // let _ = window.set_decorations(false);
+    // let _ = set_shadow(&window, true);
 
     // todo
     // win11 disable this feature temporarily due to lag
-    if !winhelp::is_win11() {
-      let _ = apply_blur(&window, None);
-    }
+//     if !winhelp::is_win11() {
+//       let _ = apply_blur(&window, None);
+//     }
   }
 
   #[cfg(target_os = "macos")]
